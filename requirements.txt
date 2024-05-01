@@ -1,0 +1,10 @@
+streamlit
+streamlit-extras
+PYPDF2
+os
+dotenv
+pickle
+langchain
+langchain_google_genai
+google-generativeai 
+faiss-cpu
