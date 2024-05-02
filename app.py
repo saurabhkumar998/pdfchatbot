@@ -92,7 +92,9 @@ def stream_data(response):
  
 def main():
     
-    load_dotenv()
+    load_dotenv(dotenv_path="/Users/saurabh/workspace/pythonProjects/AIProjects/PdfChatBot/.env")
+
+    print(os.getenv('GOOGLE_API_KEY'))
 
     st.header("Chat with PDF")
  
