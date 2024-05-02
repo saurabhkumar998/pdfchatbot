@@ -27,7 +27,6 @@ with st.sidebar:
     ## About
     This app is an LLM-powered chatbot''')
     add_vertical_space(5)
-    st.write('Made by Saurabh')
 
 def get_pdf_text(pdf):
     pdf_reader = PdfReader(pdf)
